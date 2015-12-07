@@ -9,6 +9,7 @@ using System.Threading;
 using System.Web;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using RestSharp;
 using RestSharp.Authenticators;
 using twitter_api.Models;
@@ -41,7 +42,10 @@ namespace twitter_api.Services
         {
             RestRequest request = new RestRequest("/search/tweets.json", Method.GET);
             const int timeout = 15 * 60 / 180; // To avoid twitter rate limit
-
+            var mergeSettings = new JsonMergeSettings
+            {
+                MergeArrayHandling = MergeArrayHandling.Union
+            };
             string q = "";
 
             foreach (string account in accounts)
@@ -57,6 +61,7 @@ namespace twitter_api.Services
             var response = _client.Execute(request);
             
             dynamic data = JsonConvert.DeserializeObject(response.Content);
+            var statuses = data.statuses;
             bool flag = true;
 
             if (data.search_metadata.next_results != null)
@@ -77,6 +82,7 @@ namespace twitter_api.Services
 
                 response = _client.Execute(request);
                 data = JsonConvert.DeserializeObject(response.Content);
+                statuses.Merge(data.statuses, mergeSettings);
 
                 if (data.search_metadata.next_results == null)
                 {
@@ -96,7 +102,7 @@ namespace twitter_api.Services
 
 
             var tweets = new List<ITweet>();
-            foreach (var status in data.statuses)
+            foreach (var status in statuses)
             {
                 tweets.Add(new Tweet()
                 {
