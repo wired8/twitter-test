@@ -1,0 +1,1197 @@
+﻿{
+	"statuses": [{
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"created_at": "Sat Dec 05 21:31:15 +0000 2015",
+		"id": 673253323961667586,
+		"id_str": "673253323961667586",
+		"text": ".@Fresno_State is about to improve the #parking experience for students with PayByPhone. Learn more https:\/\/t.co\/oE8IbR7tBF",
+		"source": "\u003ca href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 36187508,
+			"id_str": "36187508",
+			"name": "PayByPhone",
+			"screen_name": "pay_by_phone",
+			"location": "North America, UK & Europe",
+			"description": "Welcome to PayByPhone, the global leader in mobile payments for parking. Download the PayByPhone app today for seamless, hassle free parking!",
+			"url": "http:\/\/t.co\/RNX7T2x9yH",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "http:\/\/t.co\/RNX7T2x9yH",
+						"expanded_url": "http:\/\/www.paybyphone.com",
+						"display_url": "paybyphone.com",
+						"indices": [0, 22]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 4090,
+			"friends_count": 1448,
+			"listed_count": 79,
+			"created_at": "Tue Apr 28 21:22:13 +0000 2009",
+			"favourites_count": 1187,
+			"utc_offset": -28800,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": false,
+			"statuses_count": 2911,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/36187508\/1398462318",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "FFFFFF",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 1,
+		"favorite_count": 0,
+		"entities": {
+			"hashtags": [{
+				"text": "parking",
+				"indices": [39, 47]
+			}],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "Fresno_State",
+				"name": "Fresno State",
+				"id": 67497155,
+				"id_str": "67497155",
+				"indices": [1, 14]
+			}],
+			"urls": [{
+				"url": "https:\/\/t.co\/oE8IbR7tBF",
+				"expanded_url": "http:\/\/ow.ly\/VrNih",
+				"display_url": "ow.ly\/VrNih",
+				"indices": [100, 123]
+			}]
+		},
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	}, {
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"created_at": "Sat Dec 05 12:15:37 +0000 2015",
+		"id": 673113494577893376,
+		"id_str": "673113494577893376",
+		"text": "If you're heading to #ARSSUN today, save time and park with PayByPhone #BPL @Arsenal",
+		"source": "\u003ca href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 36187508,
+			"id_str": "36187508",
+			"name": "PayByPhone",
+			"screen_name": "pay_by_phone",
+			"location": "North America, UK & Europe",
+			"description": "Welcome to PayByPhone, the global leader in mobile payments for parking. Download the PayByPhone app today for seamless, hassle free parking!",
+			"url": "http:\/\/t.co\/RNX7T2x9yH",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "http:\/\/t.co\/RNX7T2x9yH",
+						"expanded_url": "http:\/\/www.paybyphone.com",
+						"display_url": "paybyphone.com",
+						"indices": [0, 22]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 4090,
+			"friends_count": 1448,
+			"listed_count": 79,
+			"created_at": "Tue Apr 28 21:22:13 +0000 2009",
+			"favourites_count": 1187,
+			"utc_offset": -28800,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": false,
+			"statuses_count": 2911,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/36187508\/1398462318",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "FFFFFF",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"entities": {
+			"hashtags": [{
+				"text": "ARSSUN",
+				"indices": [21, 28]
+			}, {
+				"text": "BPL",
+				"indices": [71, 75]
+			}],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "Arsenal",
+				"name": "Arsenal FC",
+				"id": 34613288,
+				"id_str": "34613288",
+				"indices": [76, 84]
+			}],
+			"urls": []
+		},
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	}, {
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"created_at": "Sat Dec 05 12:15:37 +0000 2015",
+		"id": 673113493235724289,
+		"id_str": "673113493235724289",
+		"text": "If you're heading to #ARSSUN today, save time and park with PayByPhone #BPL @Arsenal",
+		"source": "\u003ca href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 436714561,
+			"id_str": "436714561",
+			"name": "PayByPhone UK",
+			"screen_name": "PayByPhone_UK",
+			"location": "United Kingdom",
+			"description": "No coins? No problem. Pay to park on your phone! Search for PayByPhone in your app store",
+			"url": "http:\/\/t.co\/bIx9kldI2j",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "http:\/\/t.co\/bIx9kldI2j",
+						"expanded_url": "http:\/\/www.paybyphone.co.uk",
+						"display_url": "paybyphone.co.uk",
+						"indices": [0, 22]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 436,
+			"friends_count": 461,
+			"listed_count": 12,
+			"created_at": "Wed Dec 14 13:43:24 +0000 2011",
+			"favourites_count": 23,
+			"utc_offset": 0,
+			"time_zone": "London",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 711,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+			"profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+			"profile_background_tile": false,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1692883108\/PBP_logo_twitter_normal.jpg",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1692883108\/PBP_logo_twitter_normal.jpg",
+			"profile_link_color": "00B30C",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"entities": {
+			"hashtags": [{
+				"text": "ARSSUN",
+				"indices": [21, 28]
+			}, {
+				"text": "BPL",
+				"indices": [71, 75]
+			}],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "Arsenal",
+				"name": "Arsenal FC",
+				"id": 34613288,
+				"id_str": "34613288",
+				"indices": [76, 84]
+			}],
+			"urls": []
+		},
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	}, {
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"created_at": "Sat Dec 05 09:20:32 +0000 2015",
+		"id": 673069433758326784,
+		"id_str": "673069433758326784",
+		"text": "#Parking may be about to get a little bit more challenging! https:\/\/t.co\/CoKo3FTzKO",
+		"source": "\u003ca href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 436714561,
+			"id_str": "436714561",
+			"name": "PayByPhone UK",
+			"screen_name": "PayByPhone_UK",
+			"location": "United Kingdom",
+			"description": "No coins? No problem. Pay to park on your phone! Search for PayByPhone in your app store",
+			"url": "http:\/\/t.co\/bIx9kldI2j",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "http:\/\/t.co\/bIx9kldI2j",
+						"expanded_url": "http:\/\/www.paybyphone.co.uk",
+						"display_url": "paybyphone.co.uk",
+						"indices": [0, 22]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 436,
+			"friends_count": 461,
+			"listed_count": 12,
+			"created_at": "Wed Dec 14 13:43:24 +0000 2011",
+			"favourites_count": 23,
+			"utc_offset": 0,
+			"time_zone": "London",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 711,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+			"profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+			"profile_background_tile": false,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1692883108\/PBP_logo_twitter_normal.jpg",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1692883108\/PBP_logo_twitter_normal.jpg",
+			"profile_link_color": "00B30C",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 1,
+		"favorite_count": 0,
+		"entities": {
+			"hashtags": [{
+				"text": "Parking",
+				"indices": [0, 8]
+			}],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [{
+				"url": "https:\/\/t.co\/CoKo3FTzKO",
+				"expanded_url": "http:\/\/ow.ly\/VrNUs",
+				"display_url": "ow.ly\/VrNUs",
+				"indices": [60, 83]
+			}]
+		},
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	}, {
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"created_at": "Sat Dec 05 09:20:32 +0000 2015",
+		"id": 673069433418588160,
+		"id_str": "673069433418588160",
+		"text": "#Parking may be about to get a little bit more challenging! https:\/\/t.co\/AHyVU4ADwV",
+		"source": "\u003ca href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 36187508,
+			"id_str": "36187508",
+			"name": "PayByPhone",
+			"screen_name": "pay_by_phone",
+			"location": "North America, UK & Europe",
+			"description": "Welcome to PayByPhone, the global leader in mobile payments for parking. Download the PayByPhone app today for seamless, hassle free parking!",
+			"url": "http:\/\/t.co\/RNX7T2x9yH",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "http:\/\/t.co\/RNX7T2x9yH",
+						"expanded_url": "http:\/\/www.paybyphone.com",
+						"display_url": "paybyphone.com",
+						"indices": [0, 22]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 4090,
+			"friends_count": 1448,
+			"listed_count": 79,
+			"created_at": "Tue Apr 28 21:22:13 +0000 2009",
+			"favourites_count": 1187,
+			"utc_offset": -28800,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": false,
+			"statuses_count": 2911,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/36187508\/1398462318",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "FFFFFF",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"entities": {
+			"hashtags": [{
+				"text": "Parking",
+				"indices": [0, 8]
+			}],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [{
+				"url": "https:\/\/t.co\/AHyVU4ADwV",
+				"expanded_url": "http:\/\/ow.ly\/VrO05",
+				"display_url": "ow.ly\/VrO05",
+				"indices": [60, 83]
+			}]
+		},
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	}, {
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"created_at": "Fri Dec 04 22:37:09 +0000 2015",
+		"id": 672907518532710400,
+		"id_str": "672907518532710400",
+		"text": "RT @guardian: Six bridges shortlisted to link Tintagel Castle with Cornwall https:\/\/t.co\/a7wNGoUavB",
+		"source": "\u003ca href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter for iPhone\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 36187508,
+			"id_str": "36187508",
+			"name": "PayByPhone",
+			"screen_name": "pay_by_phone",
+			"location": "North America, UK & Europe",
+			"description": "Welcome to PayByPhone, the global leader in mobile payments for parking. Download the PayByPhone app today for seamless, hassle free parking!",
+			"url": "http:\/\/t.co\/RNX7T2x9yH",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "http:\/\/t.co\/RNX7T2x9yH",
+						"expanded_url": "http:\/\/www.paybyphone.com",
+						"display_url": "paybyphone.com",
+						"indices": [0, 22]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 4090,
+			"friends_count": 1448,
+			"listed_count": 79,
+			"created_at": "Tue Apr 28 21:22:13 +0000 2009",
+			"favourites_count": 1187,
+			"utc_offset": -28800,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": false,
+			"statuses_count": 2911,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/36187508\/1398462318",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "FFFFFF",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"created_at": "Thu Dec 03 00:39:00 +0000 2015",
+			"id": 672213407383330816,
+			"id_str": "672213407383330816",
+			"text": "Six bridges shortlisted to link Tintagel Castle with Cornwall https:\/\/t.co\/a7wNGoUavB",
+			"source": "",
+			"retweet_count": 1,
+			"favorite_count": 2,
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [{
+					"screen_name": "pay_by_phone",
+					"name": "PayByPhone",
+					"id": 36187508,
+					"id_str": "36187508",
+					"indices": [16, 29]
+				}],
+				"urls": []
+			},
+			"favorited": false,
+			"retweeted": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 1,
+		"favorite_count": 0,
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "Mariana89Vv",
+				"name": "Mariana Valdez",
+				"id": 56828493,
+				"id_str": "56828493",
+				"indices": [3, 15]
+			}, {
+				"screen_name": "pay_by_phone",
+				"name": "PayByPhone",
+				"id": 36187508,
+				"id_str": "36187508",
+				"indices": [33, 46]
+			}],
+			"urls": []
+		},
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	}, {
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"created_at": "Fri Dec 04 13:41:13 +0000 2015",
+		"id": 672772646417887233,
+		"id_str": "672772646417887233",
+		"text": "RT @LaneySolutions: Smart cities = opportunity for system designers &amp; sensor manufacturers https:\/\/t.co\/SHX3N04hKp #parking #smartcities ht\u2026",
+		"source": "\u003ca href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 36187508,
+			"id_str": "36187508",
+			"name": "PayByPhone",
+			"screen_name": "pay_by_phone",
+			"location": "North America, UK & Europe",
+			"description": "Welcome to PayByPhone, the global leader in mobile payments for parking. Download the PayByPhone app today for seamless, hassle free parking!",
+			"url": "http:\/\/t.co\/RNX7T2x9yH",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "http:\/\/t.co\/RNX7T2x9yH",
+						"expanded_url": "http:\/\/www.paybyphone.com",
+						"display_url": "paybyphone.com",
+						"indices": [0, 22]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 4090,
+			"friends_count": 1448,
+			"listed_count": 79,
+			"created_at": "Tue Apr 28 21:22:13 +0000 2009",
+			"favourites_count": 1187,
+			"utc_offset": -28800,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": false,
+			"statuses_count": 2911,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/36187508\/1398462318",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "FFFFFF",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"retweeted_status": {
+			"metadata": {
+				"iso_language_code": "en",
+				"result_type": "recent"
+			},
+			"created_at": "Thu Dec 03 19:30:39 +0000 2015",
+			"id": 672498196669681666,
+			"id_str": "672498196669681666",
+			"text": "Smart cities = opportunity for system designers &amp; sensor manufacturers https:\/\/t.co\/SHX3N04hKp #parking #smartcities https:\/\/t.co\/1zoxqH5dTQ",
+			"source": "\u003ca href=\"http:\/\/bufferapp.com\" rel=\"nofollow\"\u003eBuffer\u003c\/a\u003e",
+			"truncated": false,
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 2738415133,
+				"id_str": "2738415133",
+				"name": "Kathleen Laney",
+				"screen_name": "LaneySolutions",
+				"location": "New York City ",
+				"description": "Founder @LaneySolutions, Executive Search and Recruiting, Parking Industry and ITS Enthusiast, Futurist, Proud CAN + US Citizen, Always open to a conversation!",
+				"url": "http:\/\/t.co\/BeWp4z2mld",
+				"entities": {
+					"url": {
+						"urls": [{
+							"url": "http:\/\/t.co\/BeWp4z2mld",
+							"expanded_url": "http:\/\/www.laneysolutions.com",
+							"display_url": "laneysolutions.com",
+							"indices": [0, 22]
+						}]
+					},
+					"description": {
+						"urls": []
+					}
+				},
+				"protected": false,
+				"followers_count": 521,
+				"friends_count": 487,
+				"listed_count": 54,
+				"created_at": "Sat Aug 16 23:08:11 +0000 2014",
+				"favourites_count": 353,
+				"utc_offset": null,
+				"time_zone": null,
+				"geo_enabled": false,
+				"verified": false,
+				"statuses_count": 1028,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "3B94D9",
+				"profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+				"profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+				"profile_background_tile": false,
+				"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/536532446682963968\/NTNFZjGP_normal.jpeg",
+				"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/536532446682963968\/NTNFZjGP_normal.jpeg",
+				"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/2738415133\/1448831078",
+				"profile_link_color": "FA743E",
+				"profile_sidebar_border_color": "000000",
+				"profile_sidebar_fill_color": "000000",
+				"profile_text_color": "000000",
+				"profile_use_background_image": true,
+				"has_extended_profile": true,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": false,
+				"follow_request_sent": false,
+				"notifications": false
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 3,
+			"favorite_count": 0,
+			"entities": {
+				"hashtags": [{
+					"text": "parking",
+					"indices": [99, 107]
+				}, {
+					"text": "smartcities",
+					"indices": [108, 120]
+				}],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [{
+					"url": "https:\/\/t.co\/SHX3N04hKp",
+					"expanded_url": "http:\/\/buff.ly\/1Tz37cE",
+					"display_url": "buff.ly\/1Tz37cE",
+					"indices": [75, 98]
+				}],
+				"media": [{
+					"id": 672498196527095808,
+					"id_str": "672498196527095808",
+					"indices": [121, 144],
+					"media_url": "http:\/\/pbs.twimg.com\/media\/CVUxi_QWoAARCqt.png",
+					"media_url_https": "https:\/\/pbs.twimg.com\/media\/CVUxi_QWoAARCqt.png",
+					"url": "https:\/\/t.co\/1zoxqH5dTQ",
+					"display_url": "pic.twitter.com\/1zoxqH5dTQ",
+					"expanded_url": "http:\/\/twitter.com\/LaneySolutions\/status\/672498196669681666\/photo\/1",
+					"type": "photo",
+					"sizes": {
+						"large": {
+							"w": 1024,
+							"h": 1007,
+							"resize": "fit"
+						},
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"small": {
+							"w": 340,
+							"h": 334,
+							"resize": "fit"
+						},
+						"medium": {
+							"w": 600,
+							"h": 590,
+							"resize": "fit"
+						}
+					}
+				}]
+			},
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": false,
+		"retweet_count": 3,
+		"favorite_count": 0,
+		"entities": {
+			"hashtags": [{
+				"text": "parking",
+				"indices": [119, 127]
+			}, {
+				"text": "smartcities",
+				"indices": [128, 140]
+			}],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "LaneySolutions",
+				"name": "Kathleen Laney",
+				"id": 2738415133,
+				"id_str": "2738415133",
+				"indices": [3, 18]
+			}],
+			"urls": [{
+				"url": "https:\/\/t.co\/SHX3N04hKp",
+				"expanded_url": "http:\/\/buff.ly\/1Tz37cE",
+				"display_url": "buff.ly\/1Tz37cE",
+				"indices": [95, 118]
+			}],
+			"media": [{
+				"id": 672498196527095808,
+				"id_str": "672498196527095808",
+				"indices": [143, 144],
+				"media_url": "http:\/\/pbs.twimg.com\/media\/CVUxi_QWoAARCqt.png",
+				"media_url_https": "https:\/\/pbs.twimg.com\/media\/CVUxi_QWoAARCqt.png",
+				"url": "https:\/\/t.co\/1zoxqH5dTQ",
+				"display_url": "pic.twitter.com\/1zoxqH5dTQ",
+				"expanded_url": "http:\/\/twitter.com\/LaneySolutions\/status\/672498196669681666\/photo\/1",
+				"type": "photo",
+				"sizes": {
+					"large": {
+						"w": 1024,
+						"h": 1007,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"small": {
+						"w": 340,
+						"h": 334,
+						"resize": "fit"
+					},
+					"medium": {
+						"w": 600,
+						"h": 590,
+						"resize": "fit"
+					}
+				},
+				"source_status_id": 672498196669681666,
+				"source_status_id_str": "672498196669681666",
+				"source_user_id": 2738415133,
+				"source_user_id_str": "2738415133"
+			}]
+		},
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	}, {
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"created_at": "Fri Dec 04 12:25:57 +0000 2015",
+		"id": 672753708552294401,
+		"id_str": "672753708552294401",
+		"text": "Could this be the end of pavement #parking rows? https:\/\/t.co\/tSrosLOThE via @BBCNewsMagazine",
+		"source": "\u003ca href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 36187508,
+			"id_str": "36187508",
+			"name": "PayByPhone",
+			"screen_name": "pay_by_phone",
+			"location": "North America, UK & Europe",
+			"description": "Welcome to PayByPhone, the global leader in mobile payments for parking. Download the PayByPhone app today for seamless, hassle free parking!",
+			"url": "http:\/\/t.co\/RNX7T2x9yH",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "http:\/\/t.co\/RNX7T2x9yH",
+						"expanded_url": "http:\/\/www.paybyphone.com",
+						"display_url": "paybyphone.com",
+						"indices": [0, 22]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 4090,
+			"friends_count": 1448,
+			"listed_count": 79,
+			"created_at": "Tue Apr 28 21:22:13 +0000 2009",
+			"favourites_count": 1187,
+			"utc_offset": -28800,
+			"time_zone": "Pacific Time (US & Canada)",
+			"geo_enabled": false,
+			"verified": false,
+			"statuses_count": 2911,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_image_url_https": "https:\/\/pbs.twimg.com\/profile_background_images\/718700580\/c3ecbaf55ef2ce47c2da4a78cc5a9750.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/469891235520319488\/u1BflEpj_normal.png",
+			"profile_banner_url": "https:\/\/pbs.twimg.com\/profile_banners\/36187508\/1398462318",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "FFFFFF",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"entities": {
+			"hashtags": [{
+				"text": "parking",
+				"indices": [34, 42]
+			}],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "BBCNewsMagazine",
+				"name": "BBC News Magazine",
+				"id": 14697685,
+				"id_str": "14697685",
+				"indices": [77, 93]
+			}],
+			"urls": [{
+				"url": "https:\/\/t.co\/tSrosLOThE",
+				"expanded_url": "http:\/\/ow.ly\/VtEgi",
+				"display_url": "ow.ly\/VtEgi",
+				"indices": [49, 72]
+			}]
+		},
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	}, {
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"created_at": "Fri Dec 04 12:25:57 +0000 2015",
+		"id": 672753708258697217,
+		"id_str": "672753708258697217",
+		"text": "Could this be the end of pavement #parking rows? https:\/\/t.co\/wCF8CSc5Z2 via @BBCNewsMagazine",
+		"source": "\u003ca href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 436714561,
+			"id_str": "436714561",
+			"name": "PayByPhone UK",
+			"screen_name": "PayByPhone_UK",
+			"location": "United Kingdom",
+			"description": "No coins? No problem. Pay to park on your phone! Search for PayByPhone in your app store",
+			"url": "http:\/\/t.co\/bIx9kldI2j",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "http:\/\/t.co\/bIx9kldI2j",
+						"expanded_url": "http:\/\/www.paybyphone.co.uk",
+						"display_url": "paybyphone.co.uk",
+						"indices": [0, 22]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 436,
+			"friends_count": 461,
+			"listed_count": 12,
+			"created_at": "Wed Dec 14 13:43:24 +0000 2011",
+			"favourites_count": 23,
+			"utc_offset": 0,
+			"time_zone": "London",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 711,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+			"profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+			"profile_background_tile": false,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1692883108\/PBP_logo_twitter_normal.jpg",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1692883108\/PBP_logo_twitter_normal.jpg",
+			"profile_link_color": "00B30C",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"entities": {
+			"hashtags": [{
+				"text": "parking",
+				"indices": [34, 42]
+			}],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "BBCNewsMagazine",
+				"name": "BBC News Magazine",
+				"id": 14697685,
+				"id_str": "14697685",
+				"indices": [77, 93]
+			}],
+			"urls": [{
+				"url": "https:\/\/t.co\/wCF8CSc5Z2",
+				"expanded_url": "http:\/\/ow.ly\/VtDQs",
+				"display_url": "ow.ly\/VtDQs",
+				"indices": [49, 72]
+			}]
+		},
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	}, {
+		"metadata": {
+			"iso_language_code": "en",
+			"result_type": "recent"
+		},
+		"created_at": "Fri Dec 04 11:20:33 +0000 2015",
+		"id": 672737249105215488,
+		"id_str": "672737249105215488",
+		"text": "We have opened a new location in #Crewe use 89083 for Weston Road Car Park",
+		"source": "\u003ca href=\"http:\/\/www.hootsuite.com\" rel=\"nofollow\"\u003eHootsuite\u003c\/a\u003e",
+		"truncated": false,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 436714561,
+			"id_str": "436714561",
+			"name": "PayByPhone UK",
+			"screen_name": "PayByPhone_UK",
+			"location": "United Kingdom",
+			"description": "No coins? No problem. Pay to park on your phone! Search for PayByPhone in your app store",
+			"url": "http:\/\/t.co\/bIx9kldI2j",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "http:\/\/t.co\/bIx9kldI2j",
+						"expanded_url": "http:\/\/www.paybyphone.co.uk",
+						"display_url": "paybyphone.co.uk",
+						"indices": [0, 22]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 436,
+			"friends_count": 461,
+			"listed_count": 12,
+			"created_at": "Wed Dec 14 13:43:24 +0000 2011",
+			"favourites_count": 23,
+			"utc_offset": 0,
+			"time_zone": "London",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 711,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+			"profile_background_image_url_https": "https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png",
+			"profile_background_tile": false,
+			"profile_image_url": "http:\/\/pbs.twimg.com\/profile_images\/1692883108\/PBP_logo_twitter_normal.jpg",
+			"profile_image_url_https": "https:\/\/pbs.twimg.com\/profile_images\/1692883108\/PBP_logo_twitter_normal.jpg",
+			"profile_link_color": "00B30C",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 1,
+		"favorite_count": 0,
+		"entities": {
+			"hashtags": [{
+				"text": "Crewe",
+				"indices": [33, 39]
+			}],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": []
+		},
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	}],
+	"search_metadata": {
+		"completed_in": 0.045,
+		"max_id": 673253323961667586,
+		"max_id_str": "673253323961667586",
+		"query": "from%3Apay_by_phone+OR+from%3APayByPhone+OR+from%3APayByPhone_UK+since%3A2015-11-22+until%3A2015-12-6",
+		"refresh_url": "?since_id=673253323961667586&q=from%3Apay_by_phone%20OR%20from%3APayByPhone%20OR%20from%3APayByPhone_UK%20since%3A2015-11-22%20until%3A2015-12-6&include_entities=1",
+		"count": 15,
+		"since_id": 0,
+		"since_id_str": "0"
+	}
+}

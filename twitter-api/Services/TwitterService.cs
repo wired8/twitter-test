@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading;
-using Microsoft.Practices.Unity;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using RestSharp;
@@ -16,7 +14,7 @@ namespace twitter_api.Services
    
     public class TwitterService : ITwitterService
     {
-        private IRestClient _client;
+        private readonly IRestClient _client;
 
         /// <summary>
         /// Twitter api search service 
@@ -39,10 +37,11 @@ namespace twitter_api.Services
 
             IRestResponse response = _client.Execute(request);
 
-            Assert.IsNotNull(response);
-            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
-
+            if (response != null && response.StatusCode == HttpStatusCode.OK) return;
+            var errorMessage = response != null ? response.ErrorMessage : "";
+            throw new Exception($"Could not validate credientals with Twitter API {errorMessage}");
         }
+
         /// <summary>
         /// Get all tweets from twitter search api for specific accounts and a date range
         /// </summary>
