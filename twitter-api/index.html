@@ -6,29 +6,37 @@
 <body>
 
     <div>
-        <h2>Tweets from last 2 weeks</h2>
-        <ul id="tweets" />
+        <h2>Pay by phone tweets</h2>
+        <ul id="stats"></ul>
+        <ul id="tweets"></ul>
     </div>
 
-    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.0.3.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script>
-    var uri = 'api/tweet';
-
+    
     $(document).ready(function () {
-      // Send an AJAX request
-      $.getJSON(uri)
-          .done(function (data) {
-            // On success, 'data' contains a list of products.
-            $.each(data, function (key, item) {
-              // Add a list item for the product.
-              $('<li>', { text: formatItem(item) }).appendTo($('#tweets'));
-            });
-          });
+        // Send an AJAX request
+        $.ajax({
+            type: 'GET',
+            url: 'api/tweet',
+            dataType: 'json',
+            success: function (data) {
+                $.each(data.AccountStats, function (index, account) {
+                    $('<li>', {
+                        text: account.AccountName + ' - Total Tweets: ' + account.TotalTweets + ', Total Mentions: ' + account.TotalMentions
+                    }).appendTo($('#stats'));
+                });
+                $.each(data.Tweets, function (index, tweet) {
+                    $('<li>', {
+                         text:  tweet.Account + ' : ' + tweet.DateTime + ' - ' + tweet.Text
+                    }).appendTo($('#tweets'));
+                });
+            },
+            error: function (x, y, z) {
+                alert(x + '\n' + y + '\n' + z);
+            }
+        });
     });
-
-    function formatItem(item) {
-        return item;
-    }
 
     </script>
 </body>

@@ -90,6 +90,7 @@
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -132,7 +133,9 @@
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
@@ -140,15 +143,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\IMetaData.cs" />
+    <Compile Include="Models\AccountStats.cs" />
+    <Compile Include="Models\IAccountStats.cs" />
     <Compile Include="Models\ITweet.cs" />
-    <Compile Include="Models\ITwitterSearchResponse.cs" />
-    <Compile Include="Models\MetaData.cs" />
+    <Compile Include="Models\ITwitterResponse.cs" />
     <Compile Include="Models\Tweet.cs" />
-    <Compile Include="Models\TwitterSearchResponse.cs" />
+    <Compile Include="Models\TwitterResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ITwitter.cs" />
-    <Compile Include="Services\Twitter.cs" />
+    <Compile Include="Services\TwitterService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

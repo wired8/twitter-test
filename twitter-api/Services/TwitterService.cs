@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Configuration;
@@ -6,6 +7,7 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Newtonsoft.Json;
 using RestSharp;
 using RestSharp.Authenticators;
 using twitter_api.Models;
@@ -13,11 +15,11 @@ using twitter_api.Models;
 namespace twitter_api.Services
 {
    
-    public class Twitter : ITwitter
+    public class TwitterService : ITwitterService
     {
         private readonly RestClient _client;
 
-        public Twitter(string consumerKey, string consumerSecret, string accessToken, string accessTokenSecret)
+        public TwitterService(string consumerKey, string consumerSecret, string accessToken, string accessTokenSecret)
         {
             Uri baseUrl = new Uri("https://api.twitter.com/1.1");
             _client = new RestClient(baseUrl)
@@ -34,7 +36,7 @@ namespace twitter_api.Services
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
 
         }
-        public IList<ITweet> GetTweets(IList<string> accounts, DateTime from, DateTime to)
+        public ITwitterResponse GetTweets(IList<string> accounts, DateTime from, DateTime to)
         {
             RestRequest request = new RestRequest("/search/tweets.json", Method.GET);
 
@@ -50,21 +52,35 @@ namespace twitter_api.Services
 
             request.AddQueryParameter("q", q);
 
-            _client.ExecuteAsync<TwitterSearchResponse>(request, response =>
+            var response = _client.Execute(request);
+            
+            dynamic data = JsonConvert.DeserializeObject(response.Content);
+
+            var tweets = new List<ITweet>();
+            foreach (var status in data.statuses)
             {
-                Console.WriteLine("Query complete, let's see what you've won:");
-                Console.WriteLine("Status Code: " + response.StatusCode);
-       
-
-                ITwitterSearchResponse tweets = response.Data;
-
-                foreach (Tweet tweet in tweets.results)
+                tweets.Add(new Tweet()
                 {
-                    Console.WriteLine(String.Format("Tweet from {0}: {1} - {2}", tweet.from_user, tweet.created_at, tweet.source));
-                }
-            });
+                    Account = status.user.name,
+                    DateTime = status.created_at,
+                    Text = status.text,
+                    UserMentions = status.entities.user_mentions.Count
+                });
+            }
 
-            return null;
+            var accountStats = tweets.GroupBy(t => t.Account).Select(
+                               tw => new AccountStats {
+                                   AccountName = tw.Key,
+                                   TotalTweets = tw.Count(),
+                                   TotalMentions = tw.Sum(m => m.UserMentions)
+                               }
+                              ).ToList();
+
+            return new TwitterResponse()
+            {
+                Tweets = tweets,
+                AccountStats =  accountStats
+            };
         }
     }
 }
