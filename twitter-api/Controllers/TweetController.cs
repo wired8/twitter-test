@@ -21,7 +21,8 @@ namespace twitter_api.Controllers
         public IHttpActionResult GetAllTweets()
         {
             var accounts = new List<string>(ConfigurationManager.AppSettings["TwitterAccounts"].Split(','));
-            var tweets = _twitter.GetTweets(accounts, DateTime.Now.AddDays(-100), DateTime.Now);
+            var numberDays = Convert.ToInt32(ConfigurationManager.AppSettings["NumberDays"]);
+            var tweets = _twitter.GetTweets(accounts, DateTime.Now.AddDays(-numberDays), DateTime.Now);
             return Json(tweets);
         }
     }

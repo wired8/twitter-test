@@ -5,6 +5,7 @@ using System.Collections.Specialized;
 using System.Configuration;
 using System.Linq;
 using System.Net;
+using System.Threading;
 using System.Web;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
@@ -39,6 +40,7 @@ namespace twitter_api.Services
         public ITwitterResponse GetTweets(IList<string> accounts, DateTime from, DateTime to)
         {
             RestRequest request = new RestRequest("/search/tweets.json", Method.GET);
+            const int timeout = 15 * 60 / 180; // To avoid twitter rate limit
 
             string q = "";
 
@@ -55,6 +57,43 @@ namespace twitter_api.Services
             var response = _client.Execute(request);
             
             dynamic data = JsonConvert.DeserializeObject(response.Content);
+            bool flag = true;
+
+            if (data.search_metadata.next_results != null)
+            {
+                String max_id = (data.statuses[14].id.Value - 1).ToString();
+                request = new RestRequest("/search/tweets.json", Method.GET);
+                request.AddQueryParameter("q", q);
+                request.AddQueryParameter("max_id", max_id);
+            }
+            else
+            {
+                flag = false;
+            }
+
+            do
+            {
+                Thread.Sleep(timeout);
+
+                response = _client.Execute(request);
+                data = JsonConvert.DeserializeObject(response.Content);
+
+                if (data.search_metadata.next_results == null)
+                {
+                    flag = false;
+                }
+                else
+                {
+                    String max_id = (data.statuses[14].id.Value - 1).ToString();
+                    request = new RestRequest("/search/tweets.json", Method.GET);
+                    request.AddQueryParameter("q", q);
+                    request.AddQueryParameter("max_id", max_id);
+                }
+
+              
+
+            } while (flag);
+
 
             var tweets = new List<ITweet>();
             foreach (var status in data.statuses)
